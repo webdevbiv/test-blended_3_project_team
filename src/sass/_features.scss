@@ -1,0 +1,47 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+  max-width: 480px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.features-list {
+  @extend %flex-wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.features-list__item {
+  margin-top: 30px;
+  margin-left: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 4 * 30px) / 4);
+  }
+}
+
+.features-list__icon {
+  @extend %flex-center;
+  margin-bottom: 30px;
+  background-color: var(--bg-team);
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+}
+
+.features-list__cvg {
+  width: 70px;
+  height: 70px;
+}
