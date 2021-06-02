@@ -2,8 +2,6 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
-
-// Стили для файла с примером HTML-фрагмента
 @import './about';
 @import './address';
 @import './clients';
@@ -17,4 +15,6 @@
 @import './specialization';
 @import './team';
 @import './qualification';
+
+// Стили для файла с примером HTML-фрагмента
 @import './example';
