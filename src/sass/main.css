@@ -68,8 +68,11 @@
   color: bisque;
   background-color: #3b0606;
   list-style: none;
-  font-style: italic;
-  font-size: larger;
+}
+
+.team-item {
+  background-color: #940c0c;
+  color: #aaf3b5;
 }
 
 .example {
