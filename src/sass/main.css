@@ -2,18 +2,6 @@
 /*
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
-<<<<<<< Updated upstream
- */
-.team-title {
-  font-style: italic;
-  color: beige;
-  background-color: #2e0505;
-}
-
-.team-title:hover {
-  color: black;
-  background-color: #fff;
-=======
  * Комент
  */
 .about_title {
@@ -25,6 +13,11 @@
   font-size: 14px;
   line-height: 1.14;
   color: #000;
+}
+
+.text-area {
+  color: aqua;
+  background-color: burlywood;
 }
 
 .features__title {
@@ -43,6 +36,10 @@
   color: skyblue;
   background-color: #009688;
   border: solid olivedrab;
+}
+
+.header_title {
+  color: blue;
 }
 
 .hero {
@@ -67,17 +64,12 @@
   text-align: center;
 }
 
-.team-title {
-  color: brown;
-  font-size: larger;
-  background-color: burlywood;
-}
-
-.team-text {
-  font-size: larger;
+.team-list {
+  color: bisque;
+  background-color: #3b0606;
+  list-style: none;
   font-style: italic;
-  font-weight: bold;
->>>>>>> Stashed changes
+  font-size: larger;
 }
 
 .example {
