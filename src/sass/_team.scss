@@ -1,20 +1,9 @@
-.team-title {
-<<<<<<< Updated upstream
-  font-style: italic;
-  color: beige;
-  background-color: rgb(46, 5, 5);
+.team-list {
+  color: bisque;
+  background-color: rgb(59, 6, 6);
+  list-style: none;
 }
-.team-title:hover {
-  color: black;
-  background-color: #fff;
-=======
-  color: brown;
-  font-size: larger;
-  background-color: burlywood;
-}
-.team-text {
-  font-size: larger;
-  font-style: italic;
-  font-weight: bold;
->>>>>>> Stashed changes
+.team-item {
+  background-color: rgb(148, 12, 12);
+  color: rgb(170, 243, 181);
 }
