@@ -1,3 +1,13 @@
-.header_title {
-  color: blue;
+.header-line {
+  background-color: var(--primary-white-color);
+}
+.page-header {
+  display: flex;
+  background-color: var(--primary-white-color);
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
