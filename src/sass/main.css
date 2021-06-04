@@ -2,6 +2,7 @@
 /*
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
+<<<<<<< Updated upstream
  */
 .team-title {
   font-style: italic;
@@ -12,6 +13,71 @@
 .team-title:hover {
   color: black;
   background-color: #fff;
+=======
+ * Комент
+ */
+.about_title {
+  color: red;
+}
+
+.address__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000;
+}
+
+.features__title {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #009688;
+  color: tomato;
+}
+
+.text-main {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  color: skyblue;
+  background-color: #009688;
+  border: solid olivedrab;
+}
+
+.hero {
+  color: red;
+  background-color: royalblue;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__title {
+  color: aqua;
+}
+
+.portfolio__list {
+  list-style: none;
+}
+
+.portfolio_item {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.team-title {
+  color: brown;
+  font-size: larger;
+  background-color: burlywood;
+}
+
+.team-text {
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .example {
