@@ -1,11 +1,14 @@
 .portfolio__title{
-    color: aqua;
+border: 1px solid blue;
+border-radius: 4px;
+margin-bottom: 30px;
+color: aqua;
 }
 .portfolio__list{
     list-style: none;
 }
 .portfolio_item{
-color: red;
+ color: red;
 text-transform: uppercase;
 font-weight: 900;
 text-align: center;
